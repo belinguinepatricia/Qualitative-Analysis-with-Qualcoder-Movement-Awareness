@@ -88,7 +88,7 @@ J'ai procédé à la **codification des feedbacks** et à la **visualisation des
 
  🌳 VI. Arborescence des codes
 
-![Arborescence de code](https://github.com/user-attachments/assets/912e5296-dbd0-461d-9fb0-cc0e3733b752)
+![Arborescence de code](https://github.com/user-attachments/assets/19267162-a469-40cb-b349-9a6842c6ae47)
 ---
 
  📈 VII. Visualisations
