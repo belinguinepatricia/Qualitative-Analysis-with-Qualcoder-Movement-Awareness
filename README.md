@@ -95,10 +95,13 @@ J'ai procédé à la **codification des feedbacks** et à la **visualisation des
 
 *Quelques graphiques parmi tous ceux générés :*
 
-![Graphique tendance code](https://github.com/user-attachments/assets/01f8b09e-a4e7-49d4-9609-4229699cb75e)
-![Graphique fréquence thème](https://github.com/user-attachments/assets/b03e9b55-fef7-43ee-9ea2-7ab501ed9556)
-![Graphique distribution régions](https://github.com/user-attachments/assets/3652d235-fc19-463b-abe5-8376f2beb50e)
-![Graphique de feedbacks par région](https://github.com/user-attachments/assets/b64a5217-669c-43c0-bc29-5c9afbdc590c)
+![Graphique tendance code](https://github.com/user-attachments/assets/30f0f783-0ecc-403a-b7f4-3f453e166db9)
+
+![Graphique fréquence thème](https://github.com/user-attachments/assets/e5aefd1e-4c99-41fa-b3e3-123e50d28bf1)
+
+![Graphique distribution région](https://github.com/user-attachments/assets/909239c8-af41-413e-b1f1-1ea61385a312)
+
+![Graphique de feedbacks par région](https://github.com/user-attachments/assets/d8437ccd-8ebb-453e-b420-2f85971caf63)
 ---
 
  🔍 VIII. Analyse et interprétations
@@ -129,11 +132,11 @@ J'ai procédé à la **codification des feedbacks** et à la **visualisation des
 
 Demonstration video de données texte codées dans QualCoder:
 
-https://github.com/user-attachments/assets/09251450-dbc7-4d47-9015-7237ee464179
+https://github.com/user-attachments/assets/acdf624f-159c-42d3-ac29-0e56d17ce651)
 
 Démonstration video de donnees geospatiales dans Excel :
 
-https://github.com/user-attachments/assets/c4e9d02b-537d-41f0-963a-f0160b48c274
+https://github.com/user-attachments/assets/1296b81c-62b5-46df-a21a-a2c782d67273)
 
  🇬🇧 Qualitative Analysis — CRC Movement Awareness (English)
 
@@ -217,7 +220,7 @@ I coded all feedbacks and produced **trend visualizations** using QualCoder's bu
 
  🌳 VI. Code Tree
 
-![Code Tree](https://github.com/user-attachments/assets/912e5296-dbd0-461d-9fb0-cc0e3733b752)
+![Code Tree](https://github.com/user-attachments/assets/19267162-a469-40cb-b349-9a6842c6ae47)
 
 ---
 
@@ -225,10 +228,10 @@ I coded all feedbacks and produced **trend visualizations** using QualCoder's bu
 
 *A selection of generated charts:*
 
-![Code trends chart](github.com/user-attachments/assets/01f8b09e-a4e7-49d4-9609-4229699cb75e)
-![Theme frequencies chart](https://github.com/user-attachments/assets/b03e9b55-fef7-43ee-9ea2-7ab501ed9556)
-![Regional distribution chart](https://github.com/user-attachments/assets/3652d235-fc19-463b-abe5-8376f2beb50e)
-![Feedbacks region chart](https://github.com/user-attachments/assets/b64a5217-669c-43c0-bc29-5c9afbdc590c)
+![Code trends chart](https://github.com/user-attachments/assets/30f0f783-0ecc-403a-b7f4-3f453e166db9)
+![Theme frequencies chart](https://github.com/user-attachments/assets/e5aefd1e-4c99-41fa-b3e3-123e50d28bf1)
+![Regional distribution chart](https://github.com/user-attachments/assets/909239c8-af41-413e-b1f1-1ea61385a312)
+![Feedbacks region chart](https://github.com/user-attachments/assets/d8437ccd-8ebb-453e-b420-2f85971caf63)
 
  🔍 VIII. Analysis & Interpretations
 
@@ -258,8 +261,8 @@ I coded all feedbacks and produced **trend visualizations** using QualCoder's bu
 
 Live demonstration of text data coding in QualCoder : 
 
-https://github.com/user-attachments/assets/09251450-dbc7-4d47-9015-7237ee464179
+https://github.com/user-attachments/assets/acdf624f-159c-42d3-ac29-0e56d17ce651)
 
 Live demonstration of interactivity card in Excel : 
 
-https://github.com/user-attachments/assets/c4e9d02b-537d-41f0-963a-f0160b48c274
+https://github.com/user-attachments/assets/1296b81c-62b5-46df-a21a-a2c782d67273)
