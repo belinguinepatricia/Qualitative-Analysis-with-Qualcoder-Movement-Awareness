@@ -2,7 +2,7 @@
 
 ---
 
-> 🇫🇷 **Version française** ci-dessous | 🇬🇧 **English version** [below](#-qualitative-analysis--crc-movement-awareness-english)
+> 🇫🇷 **Version française** ci-dessous | 🇬🇧 **English version** [below](#-qualitative-analysis--crc-movement-awareness-english) 
 
 ---
 
@@ -18,7 +18,7 @@ Dans ce but, les volontaires ont présenté le mouvement, ses principes et son r
 - la **désinformation**, moteur de plusieurs troubles,
 - les **conséquences sociétales des préjugés** contre les personnes n'appartenant pas à leur communauté ou leur religion.
 
-> **📌 Volume de données :** 150 feedbacks | 850 occurrences de codes | 10 régions du Cameroun
+ **📌 Volume de données :** 150 feedbacks | 850 occurrences de codes | 10 régions du Cameroun
 
 ---
 
@@ -33,24 +33,13 @@ Dans ce but, les volontaires ont présenté le mouvement, ses principes et son r
 
  📂 III. Accéder au projet QualCoder
 
-**Prérequis — Installer QualCoder (gratuit & open source) :**
-👉 [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
-> Compatible Windows, Mac et Linux — aucune licence requise.
-
-**Étapes pour ouvrir le projet :**
-
-1. Téléchargez le fichier `Sensibilisation_connaissance_CRC.zip` depuis ce dépôt
-2. Décompressez-le dans un dossier de votre choix
-3. Ouvrez QualCoder
-4. Allez dans **Projet → Ouvrir un projet existant**
-5. Naviguez jusqu'au dossier décompressé et sélectionnez le fichier `.qda`
-6. Explorez librement les codes, les sources et les visualisations
+Ce projet utilise une methodologie perfectionnnee durant mes 6 annees de collaboration dans le secteur de l'humanitaire.
+L'absence de fichier source est du au respect de la clause de confidentialite de mon client, mais j'ai documente toute ma demarche ici via des visuels.
 
 **Ce que vous pourrez explorer :**
 
 | Composante | Description |
 |---|---|
-| 📄 Sources | Feedbacks bruts collectés auprès des communautés |
 | 🌳 Arbre de codes | Codebook structuré selon le livre de code du client |
 | 🏷️ Attributs | Variables socio-démographiques associées aux participants |
 | 📊 Rapports | Fréquences et croisements des codes |
@@ -86,22 +75,65 @@ J'ai procédé à la **codification des feedbacks** et à la **visualisation des
 
 ---
 
- 🌳 VI. Arborescence des codes
+ 🌳 VI. 📂 Architecture et Hiérarchisation des Données (Codebook)
 
 ![Arborescence de code](https://github.com/user-attachments/assets/19267162-a469-40cb-b349-9a6842c6ae47)
----
+
+> **Focus Méthodologique :** Conception d'une structure de données multicritères sous **QualCoder**. Ce schéma illustre ma capacité à catégoriser des informations brutes en thématiques actionnables (ex: Besoins, Questions, Gouvernance, Impact socio-économique).
+
+**Valeur ajoutée pour l'analyse :**
+* **Standardisation :** Création d'un référentiel unique pour garantir la cohérence de l'analyse sur des volumes de données importants.
+* **Granularité :** Passage d'une catégorie globale à des sous-codes précis pour une analyse de détail (Drill-down).
+* **Adaptabilité :** Une structure conçue pour être scalable et applicable à divers secteurs (Expérience client, RH, Études de marché).
 
  📈 VII. Visualisations
 
 *Quelques graphiques parmi tous ceux générés :*
 
+### 1. 📂 Visualisation de la structuration thématique (Treemap)
+
 ![Graphique tendance code](https://github.com/user-attachments/assets/30f0f783-0ecc-403a-b7f4-3f453e166db9)
+
+**Description de l'analyse :**
+Cette Treemap illustre la distribution et le poids relatif des différentes thématiques extraites via Qualcoder. Elle permet d'identifier instantanément les préoccupations majeures des communautes :
+* **Pole Dominant (Bleu) :**
+Une analyse approfondie des *Rumeurs, Observations et Croyances*, incluant les dimensions de confiance, de collaboration et d'impact socio-économique.
+* **Engagement communautaire :**
+Structuration des *Demandes et Suggestions* (Rouge) et des *Questions* (Vert), essentiels pour l'ajustement operationnel.
+* **Indicateurs de satisfaction :**
+Suivi des *Remerciements et Encouragements* Violet) pour mesurer l'acceptation des actions sur le terrain.
+*Note: Cette visualisation démontre ma capacite a quantifier le qualitatif pour faciliter une lecture rapide des priorités stratégiques.*
+
+### 2. 📊 Répartition des codes thématiques
 
 ![Graphique fréquence thème](https://github.com/user-attachments/assets/e5aefd1e-4c99-41fa-b3e3-123e50d28bf1)
 
+> **Focus Méthodologique :** Ce graphique circulaire illustre la fréquence des thèmes identifiés après le codage de données textuelles complexes. Il permet de visualiser immédiatement les priorités et les préoccupations majeures des parties prenantes (ex: Rumeurs, Climat sécuritaire, Confiance).
+
+**Indicateurs clés extraits :**
+* **Top thématique :** "Rumeurs et Croyances" (11,5%) — Identification d'un besoin de communication stratégique.
+* **Engagement :** Analyse de la "Confiance" vs "Méfiance" pour mesurer l'acceptation sociale.
+* **Agilité :** Capacité à traiter plus de 20 catégories de codes distinctes pour une granularité d'analyse optimale.
+* 
+### 3. 📍 Segmentation Géographique et Analyse Comparative
+
 ![Graphique distribution région](https://github.com/user-attachments/assets/909239c8-af41-413e-b1f1-1ea61385a312)
 
+> **Focus Méthodologique :** Ce graphique à barres horizontales démontre l'utilisation des **attributs de données** (ici la variable 'Région') pour segmenter les feedbacks. Cette approche permet d'identifier des disparités locales et d'orienter les ressources de manière ciblée.
+
+**Analyse des Insights (Exemple : Extrême-Nord) :**
+* **Corrélation dominante :** Le thème des "Croyances" prédomine dans cette zone, indiquant un besoin d'approche communautaire spécifique.
+* **Maîtrise de la BI :** Capacité à transformer des attributs qualitatifs en mesures quantitatives (Count) pour faciliter la lecture rapide des priorités par zone géographique.*
+
+### 4. 🗺️ Analyse Spatiale : Répartition Géographique des Feedbacks
+
 ![Graphique de feedbacks par région](https://github.com/user-attachments/assets/d8437ccd-8ebb-453e-b420-2f85971caf63)
+
+> **Focus Méthodologique :** Utilisation de la cartographie (Map Visualization) pour identifier la densité des données par unité administrative. Cette visualisation permet une lecture immédiate de la couverture géographique et met en évidence les zones de forte activité ou les "zones blanches" nécessitant une attention stratégique.
+
+**Insights visuels :**
+* **Analyse de Densité :** La gradation des couleurs permet de prioriser les interventions basées sur le volume de retours (ex: régions littorales et septentrionales).
+* **Intelligence Territoriale :** Capacité à transformer des données de localisation brutes en un outil visuel d'aide à la décision pour le déploiement de ressources.
 ---
 
  🔍 VIII. Analyse et interprétations
@@ -128,17 +160,31 @@ J'ai procédé à la **codification des feedbacks** et à la **visualisation des
   
 ---
   
-   🎬 X. Demo Interactive
+🎬 X. Demo Interactive
 
-Demonstration video de données texte codées dans QualCoder:
+### 1. 🎥 Démonstration du processus de codage (Screencast)
 
-https://github.com/user-attachments/assets/acdf624f-159c-42d3-ac29-0e56d17ce651)
+https://github.com/user-attachments/assets/acdf624f-159c-42d3-ac29-0e56d17ce651
 
-Démonstration video de donnees geospatiales dans Excel :
+> **Focus Technique :** Cette vidéo illustre ma méthodologie de travail sous **QualCoder**. On y voit l'analyse de verbatims réels et l'application dynamique du codebook hiérarchique.
+> 
+**Ce que cette démonstration prouve :**
+* **Maîtrise de l'interface :** Gestion simultanée des documents sources et de l'arborescence de codes.
+* **Vitesse d'exécution :** Capacité à traiter des flux de textes de manière fluide et structurée.
+* **Précision sémantique :** Sélection rigoureuse des segments de texte pour une analyse qualitative fidèle à la réalité du terrain.
 
-https://github.com/user-attachments/assets/1296b81c-62b5-46df-a21a-a2c782d67273)
+### 2. 🌐 Dataviz Interactive : Cartographie de Performance (Power BI)
 
- 🇬🇧 Qualitative Analysis — CRC Movement Awareness (English)
+https://github.com/user-attachments/assets/1296b81c-62b5-46df-a21a-a2c782d67273
+> **Focus BI :** Intégration et visualisation des données sous **Power BI**. Cette démonstration montre l'interactivité du rapport (Tooltips/Infobulles) permettant d'afficher dynamiquement le nombre de feedbacks et le type prédominant par région au Cameroun.
+
+**Expertise technique démontrée :**
+* **Interactivité :** Mise en place d'infobulles contextuelles pour une exploration fluide des données.
+* **Intégration de données :** Capacité à traiter des données exportées et à les lier à des fichiers de forme (shapefiles) pour un rendu géographique précis.
+* **Data Storytelling :** Présentation claire des indicateurs clés (KPIs) pour faciliter une lecture rapide par les décideurs locaux ou nationaux.
+
+
+> 🇬🇧 Qualitative Analysis — CRC Movement Awareness (English)
 
  🗂️ I. Context & Summary
 
@@ -150,7 +196,7 @@ Volunteers presented the movement, its principles and its role, raising awarenes
 - **Disinformation**, a major driver of social unrest,
 - The **societal consequences of prejudice** against people of different communities or religions.
 
-> **📌 Data volume:** 150 feedbacks | 850 code occurrences | 10 regions of Cameroon
+ **📌 Data volume:** 150 feedbacks | 850 code occurrences | 10 regions of Cameroon
 
 ---
 
@@ -165,24 +211,13 @@ Volunteers presented the movement, its principles and its role, raising awarenes
 
  📂 III. Accessing the QualCoder Project
 
-**Prerequisites — Install QualCoder (free & open source):**
-👉 [https://github.com/ccbogel/QualCoder](https://github.com/ccbogel/QualCoder)
-> Compatible with Windows, Mac and Linux — no license required.
-
-**Steps to open the project:**
-
-1. Download `Sensibilisation_connaissance_CRC.zip` from this repository
-2. Extract it to a folder of your choice
-3. Open QualCoder
-4. Go to **Project → Open Existing Project**
-5. Navigate to the extracted folder and select the `.qda` file
-6. Freely explore codes, sources, and visualizations
+This project utilizes a methodology refined over my **6 years of collaboration** within the humanitarian sector.
+Please note that the source files are not provided in compliance with my client's **strict confidentiality clauses**. However, I have comprehensively documented my entire analytical workflow here through detailed visual evidence and process demonstrations.
 
 **What you can explore:**
 
 | Component | Description |
 |---|---|
-| 📄 Sources | Raw feedbacks collected from communities |
 | 🌳 Code Tree | Codebook structured according to the client's code book |
 | 🏷️ Attributes | Socio-demographic variables linked to participants |
 | 📊 Reports | Code frequencies and cross-tabulations |
@@ -218,9 +253,16 @@ I coded all feedbacks and produced **trend visualizations** using QualCoder's bu
 
 ---
 
- 🌳 VI. Code Tree
+ 🌳 VI. 📂 Data Architecture & Hierarchical Structure (Codebook)
 
 ![Code Tree](https://github.com/user-attachments/assets/19267162-a469-40cb-b349-9a6842c6ae47)
+
+> **Methodological Focus:** Designing a multi-criteria data structure in **QualCoder**. This schema demonstrates my ability to categorize raw information into actionable themes (e.g., Needs, Governance, Socio-economic Impact).
+
+**Value Added for Analysis:**
+* **Standardization:** Establishing a unique reference framework to ensure analytical consistency across large data volumes.
+* **Granularity:** Moving from global categories to specific sub-codes for detailed drill-down analysis.
+* **Scalability:** A structure designed to be adaptable across various sectors (Customer Experience, HR, Market Research).
 
 ---
 
@@ -228,10 +270,45 @@ I coded all feedbacks and produced **trend visualizations** using QualCoder's bu
 
 *A selection of generated charts:*
 
+### 1. 📂 Data Architecture & Hierarchical Structure (Codebook)
+
 ![Code trends chart](https://github.com/user-attachments/assets/30f0f783-0ecc-403a-b7f4-3f453e166db9)
+
+> **Methodological Focus:** Development of a multi-criteria data taxonomy using **QualCoder**. This schema demonstrates my ability to transform unstructured raw data into organized, actionable categories (e.g., Community Needs, Governance, Socio-economic Impact).
+
+**Analytical Value Add:**
+* **Standardization:** Establishing a unified reference framework to ensure consistency during the analysis of large datasets.
+* **Granularity:** Scaling from high-level categories to specific sub-codes for precise **drill-down analysis**.
+* **Strategic Alignment:** A structured approach designed to map qualitative narratives directly to organizational KPIs and decision-making processes.
+
+### 2. 📊 Thematic Feedback Analysis (QualCoder)
+
 ![Theme frequencies chart](https://github.com/user-attachments/assets/e5aefd1e-4c99-41fa-b3e3-123e50d28bf1)
+
+**Key Insights Extracted:**
+* **Leading Theme:** "Rumors and Beliefs" (11.5%) — Identifying a critical need for strategic communication.
+* **Engagement:** Analysis of "Trust" vs. "Mistrust" to measure social acceptance.
+* **Agility:** Ability to process over 20 distinct code categories for optimal analytical granularity.
+
+### 3.  Geographic Segmentation & Comparative Analysis
+
 ![Regional distribution chart](https://github.com/user-attachments/assets/909239c8-af41-413e-b1f1-1ea61385a312)
+
+> **Methodological Focus:** This horizontal bar chart demonstrates the use of data attributes (specifically the 'Region' variable) to segment feedback. This approach identifies local disparities and guides targeted resource allocation.
+
+**Insights (Example: Far North Region):**
+* **Dominant Correlation:** "Beliefs" are prevalent in this area, signaling a need for region-specific community engagement.
+* **BI Proficiency:** Ability to transform qualitative attributes into quantitative metrics (Count) for rapid prioritization by geographic zone.
+
+### 4. 🗺️ Spatial Analysis: Geographic Feedback Distribution
+
 ![Feedbacks region chart](https://github.com/user-attachments/assets/d8437ccd-8ebb-453e-b420-2f85971caf63)
+
+> **Methodological Focus:** Utilizing Choropleth mapping to identify data density across administrative units. This visualization provides an immediate overview of geographic coverage and highlights "hotspots" or "white zones" requiring strategic attention.
+
+**Visual Insights:**
+* **Density Analysis:** Color gradation helps prioritize interventions based on feedback volume (e.g., Coastal and Northern regions).
+* **Location Intelligence:** Transforming raw location data into a visual decision-support tool for resource deployment.
 
  🔍 VIII. Analysis & Interpretations
 
@@ -257,12 +334,16 @@ I coded all feedbacks and produced **trend visualizations** using QualCoder's bu
 
 ---
 
- 🎬 X. Interactive Demo
+ 🎬 X. Process Demonstrations (Videos)
 
-Live demonstration of text data coding in QualCoder : 
+### 1. 🎥 Coding Process Demonstration (Screencast)
 
-https://github.com/user-attachments/assets/acdf624f-159c-42d3-ac29-0e56d17ce651)
+https://github.com/user-attachments/assets/acdf624f-159c-42d3-ac29-0e56d17ce651
 
-Live demonstration of interactivity card in Excel : 
+> **Technical Focus:** This video illustrates my workflow in **QualCoder**, showcasing the analysis of raw verbatims and the dynamic application of the hierarchical codebook.
 
-https://github.com/user-attachments/assets/1296b81c-62b5-46df-a21a-a2c782d67273)
+### 2.  🌐 Interactive Dataviz: Performance Mapping (Power BI)
+
+https://github.com/user-attachments/assets/1296b81c-62b5-46df-a21a-a2c782d67273
+
+> **BI Focus:** Data integration and visualization in **Power BI**. This demo highlights report interactivity (Tooltips), dynamically displaying feedback counts and predominant types by region in Cameroon.
