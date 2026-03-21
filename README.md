@@ -129,6 +129,7 @@ Suivi des *Remerciements et Encouragements* Violet) pour mesurer l'acceptation d
 
 ![Graphique de feedbacks par région](https://github.com/user-attachments/assets/d8437ccd-8ebb-453e-b420-2f85971caf63)
 
+
 > **Focus Méthodologique :** Utilisation de la cartographie (Map Visualization) pour identifier la densité des données par unité administrative. Cette visualisation permet une lecture immédiate de la couverture géographique et met en évidence les zones de forte activité ou les "zones blanches" nécessitant une attention stratégique.
 
 **Insights visuels :**
@@ -183,6 +184,12 @@ https://github.com/user-attachments/assets/1296b81c-62b5-46df-a21a-a2c782d67273
 * **Intégration de données :** Capacité à traiter des données exportées et à les lier à des fichiers de forme (shapefiles) pour un rendu géographique précis.
 * **Data Storytelling :** Présentation claire des indicateurs clés (KPIs) pour faciliter une lecture rapide par les décideurs locaux ou nationaux.
 
+### 👩‍💼 XII. Auteure
+
+**Belinguine_Patricia** — Analyste de données en recherche d'opportunités professionnelles  
+📧 [LinkedIn](https://www.linkedin.com/in/patricia-belinguine-434b01233/) | 🐙 [GitHub](https://github.com/belinguinepatricia)
+
+---
 
 > 🇬🇧 Qualitative Analysis — CRC Movement Awareness (English)
 
